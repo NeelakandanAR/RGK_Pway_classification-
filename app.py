@@ -1,12 +1,12 @@
 
-
+import pickle
 import streamlit as st
 import pandas as pd
-
+import xgboost as xgb
 from PIL import Image
 import subprocess
 import os
-import base58
+import base64
 import pickle
 
 # Molecular descriptor calculator
@@ -20,8 +20,8 @@ def desc_calc():
 # File download
 def filedownload(df):
     csv = df.to_csv(index=False)
-    b64 = base58.b58encode(csv.encode()).decode()  # strings <-> bytes conversions
-    href = f'<a href="data:file/csv;base58,{b58}" download="prediction.csv">Download Predictions</a>'
+    b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+    href = f'<a href="data:file/csv;base64,{b64}" download="prediction.csv">Download Predictions</a>'
     return href
 
 #Decompress a Picle file
