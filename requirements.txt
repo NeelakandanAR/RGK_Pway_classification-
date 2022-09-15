@@ -1,6 +1,3 @@
 
-streamlit
-pandas
-base64
 
 
