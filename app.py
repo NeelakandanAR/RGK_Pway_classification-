@@ -60,6 +60,7 @@ You can use this application to predict which therapeutic class a drug will fall
 **Credits**
 ### App built and maintained by Neelakandan AR and Rajanikant GK
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
+- The application was developed on an ML model with a prediction accuracy of 88.5%
 - The Drugs are classified into either of the below mentioned categories
    1) Anti-infective : Ainfec
    2) Anti-Neopplastic : AN
