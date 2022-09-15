@@ -1,4 +1,4 @@
-default-jre
+
 streamlit
 pandas
 base58
