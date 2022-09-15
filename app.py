@@ -58,7 +58,7 @@ st.markdown("""
 
 You can use this application to predict which therapeutic class a drug will fall into.
 **Credits**
-- App built in `Python` + `Streamlit` by [Neelakandan AR](aka [Data Engineer])
+- App built and maintained by Neelakandan AR and Rajanikant GK
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
 ---
 """)
