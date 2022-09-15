@@ -1,0 +1,4 @@
+*.sav filter=lfs diff=lfs merge=lfs -text
+finalized_model[[:space:]].sav filter=lfs diff=lfs merge=lfs -text
+[200~finalized_model/[[:space:]].sav filter=lfs diff=lfs merge=lfs -text
+finalized_model/[[:space:]].sav filter=lfs diff=lfs merge=lfs -text
