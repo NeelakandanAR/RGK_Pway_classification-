@@ -58,8 +58,16 @@ st.markdown("""
 
 You can use this application to predict which therapeutic class a drug will fall into.
 **Credits**
-- App built and maintained by Neelakandan AR and Rajanikant GK
+### App built and maintained by Neelakandan AR and Rajanikant GK
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
+- The Drugs are classified into either of the belo mentioned categories
+   1) Anti-infective : Ainfec
+   2) Anti-Neopplastic : AN
+   3) Anti-inflammatory :Ainfla
+   4) Central Nervous System : CNS
+   5) Cardio-Vascular : CdV
+   6) Gastro-intestinal : Gi
+
 ---
 """)
 
