@@ -77,7 +77,7 @@ with st.sidebar.header('1. Upload your CSV data'):
 """)
 
 if st.sidebar.button('Predict'):
-    load_data = pd.read_table(uploaded_file, sep=' ', header=None)
+    load_data = pd.read_table(uploaded_file, sep=',', header=None)
     load_data.to_csv('molecule.smi', sep = '\t', header = False, index = False)
 
     st.header('**Original input data**')
