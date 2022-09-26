@@ -89,8 +89,8 @@ if st.sidebar.button('Predict'):
     # Read in calculated descriptors and display the dataframe
     st.header('**Calculated molecular descriptors**')
     desc = pd.read_csv('descriptors_output.csv')
-    st.write(desc)
-    st.write(desc.shape)
+    #st.write(desc)
+    #st.write(desc.shape)
 
     # Read descriptor list used in previously built model
     st.header('**Subset of descriptors from previously built models**')
